@@ -65,7 +65,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="flex items-center bg-background justify-between px-5 py-1 border-b border-gray-300">
+    <div className="flex items-center bg-background justify-between px-5 py-3 md:py-1 border-b border-gray-300">
       {/* Left > SM */}
       <div className="hidden sm:flex items-center gap-1 md:gap-6">
         {navItems.map((item) => {
@@ -107,7 +107,7 @@ export const Navbar = () => {
 
       {/* Left < SM menu*/}
       <div className="flex sm:hidden items-center gap-1">
-        <IoIosMenu size={18} />
+        <IoIosMenu size={22} />
       </div>
 
       {/* Right - Actions */}
